@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAF7F2;
+    color: #332B27;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom smooth scroll and subtle glass styling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Arch mask utility for hero image */
+.mask-arch {
+  border-top-left-radius: 180px;
+  border-top-right-radius: 180px;
+}
+
+.mask-arch-lg {
+  border-top-left-radius: 240px;
+  border-top-right-radius: 240px;
+}
+

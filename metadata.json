@@ -1,0 +1,6 @@
+{
+  "name": "Lucky Beauty Parlour — Parisian Craft & Botanical Care",
+  "description": "Bespoke Parisian skincare rituals, botanical scalp alchemy, and holistic facial therapies in a sanctuary of quiet light and warm travertine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
